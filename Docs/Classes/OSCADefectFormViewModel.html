@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OSCADefectFormViewModel Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/OSCADefectFormViewModel" class="dashAnchor"></a>
+    <a title="OSCADefectFormViewModel Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> 0.0.9 Docs</a> (100% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        OSCADefectFormViewModel Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectFormFlowCoordinator.html">OSCADefectFormFlowCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectFormPhotoCollectionViewCell.html">OSCADefectFormPhotoCollectionViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectFormPickerViewController.html">OSCADefectFormPickerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectFormPickerViewModel.html">OSCADefectFormPickerViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectFormViewController.html">OSCADefectFormViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectFormViewModel.html">OSCADefectFormViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectInformationViewController.html">OSCADefectInformationViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectInformationViewModel.html">OSCADefectInformationViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectLocationTableViewController.html">OSCADefectLocationTableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectLocationTableViewModel.html">OSCADefectLocationTableViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectLocationViewController.html">OSCADefectLocationViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectLocationViewModel.html">OSCADefectLocationViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectUIDIContainer.html">OSCADefectUIDIContainer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/OSCADefectFormPickerViewModelError.html">OSCADefectFormPickerViewModelError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCADefectFormPickerViewModelState.html">OSCADefectFormPickerViewModelState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCADefectFormViewModelError.html">OSCADefectFormViewModelError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCADefectFormViewModelState.html">OSCADefectFormViewModelState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCADefectLocationTableViewModelState.html">OSCADefectLocationTableViewModelState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/OSCADefectFormFlowCoordinatorDependencies.html">OSCADefectFormFlowCoordinatorDependencies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/OSCADefectUIModuleConfig.html">OSCADefectUIModuleConfig</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/OSCADefectFormPickerViewModelActions.html">OSCADefectFormPickerViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCADefectFormViewModelActions.html">OSCADefectFormViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:12OSCADefectUI0A27InformationViewModelActionsV">OSCADefectInformationViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:12OSCADefectUI0A29LocationTableViewModelActionsV">OSCADefectLocationTableViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:12OSCADefectUI0A24LocationViewModelActionsV">OSCADefectLocationViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCADefectUI.html">OSCADefectUI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCADefectUIConfig.html">OSCADefectUIConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCADefectUIDependencies.html">OSCADefectUIDependencies</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>OSCADefectFormViewModel</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">OSCADefectFormViewModel</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC14networkService7actionsAC011OSCANetworkG0AFC_AA0acdE7ActionsVtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(networkService:actions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC14networkService7actionsAC011OSCANetworkG0AFC_AA0acdE7ActionsVtcfc">init(networkService:<wbr>actions:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">networkService</span><span class="p">:</span> <span class="kt">OSCANetworkService</span><span class="p">,</span>
+            <span class="nv">actions</span><span class="p">:</span> <span class="kt"><a href="../Structs/OSCADefectFormViewModelActions.html">OSCADefectFormViewModelActions</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/OUTPUT"></a>
+                <a name="//apple_ref/swift/Section/OUTPUT" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/OUTPUT"></a>
+                  <h3 class="section-name"><span>OUTPUT</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC5stateAA0acdE5StateOvp"></a>
+                    <a name="//apple_ref/swift/Property/state" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC5stateAA0acdE5StateOvp">state</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">state</span><span class="p">:</span> <span class="kt"><a href="../Enums/OSCADefectFormViewModelState.html">OSCADefectFormViewModelState</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC10defectType0A00aC7ContactVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/defectType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC10defectType0A00aC7ContactVSgvp">defectType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">defectType</span><span class="p">:</span> <span class="kt">OSCADefectFormContact</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC14defectPositionSo11MKPlacemarkCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/defectPosition" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC14defectPositionSo11MKPlacemarkCSgvp">defectPosition</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">defectPosition</span><span class="p">:</span> <span class="kt">MKPlacemark</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC13defectAddressSSvp"></a>
+                    <a name="//apple_ref/swift/Property/defectAddress" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC13defectAddressSSvp">defectAddress</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">defectAddress</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC11screenTitleSSvp"></a>
+                    <a name="//apple_ref/swift/Property/screenTitle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC11screenTitleSSvp">screenTitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">screenTitle</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC12defectRegionSo012MKCoordinateG0aSgvp"></a>
+                    <a name="//apple_ref/swift/Property/defectRegion" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC12defectRegionSo012MKCoordinateG0aSgvp">defectRegion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">defectRegion</span><span class="p">:</span> <span class="kt">MKCoordinateRegion</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC10userRegionSo012MKCoordinateG0avp"></a>
+                    <a name="//apple_ref/swift/Property/userRegion" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC10userRegionSo012MKCoordinateG0avp">userRegion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the user region if available otherwise a default region is returned.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">userRegion</span><span class="p">:</span> <span class="kt">MKCoordinateRegion</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC6imagesSay10Foundation4DataVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/images" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC6imagesSay10Foundation4DataVGSgvp">images</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The jpeg data of the selected images from the collection view</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">images</span><span class="p">:</span> <span class="p">[</span><span class="kt">Data</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC14regionDistanceSdvp"></a>
+                    <a name="//apple_ref/swift/Property/regionDistance" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC14regionDistanceSdvp">regionDistance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The map zoom level. Defaults to 2km</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">regionDistance</span><span class="p">:</span> <span class="kt">CLLocationDistance</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC14isPhotoPresentSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isPhotoPresent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC14isPhotoPresentSbvp">isPhotoPresent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isPhotoPresent</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC15isCategoryValidSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isCategoryValid" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC15isCategoryValidSbvp">isCategoryValid</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isCategoryValid</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC11updateCountSivp"></a>
+                    <a name="//apple_ref/swift/Property/updateCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC11updateCountSivp">updateCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">updateCount</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC18numberOfComponentsSivp"></a>
+                    <a name="//apple_ref/swift/Property/numberOfComponents" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC18numberOfComponentsSivp">numberOfComponents</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">numberOfComponents</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC11photosTitleSSvp"></a>
+                    <a name="//apple_ref/swift/Property/photosTitle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC11photosTitleSSvp">photosTitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">photosTitle</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC13locationTitleSSvp"></a>
+                    <a name="//apple_ref/swift/Property/locationTitle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC13locationTitleSSvp">locationTitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">locationTitle</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC19customLocationTitleSSvp"></a>
+                    <a name="//apple_ref/swift/Property/customLocationTitle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC19customLocationTitleSSvp">customLocationTitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">customLocationTitle</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC11defectTitleSSvp"></a>
+                    <a name="//apple_ref/swift/Property/defectTitle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC11defectTitleSSvp">defectTitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">defectTitle</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC15defectTypeTitleSSvp"></a>
+                    <a name="//apple_ref/swift/Property/defectTypeTitle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC15defectTypeTitleSSvp">defectTypeTitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">defectTypeTitle</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC4noteSSvp"></a>
+                    <a name="//apple_ref/swift/Property/note" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC4noteSSvp">note</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The note which will be sent to the server after submission</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">note</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC15notePlaceholderSSvp"></a>
+                    <a name="//apple_ref/swift/Property/notePlaceholder" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC15notePlaceholderSSvp">notePlaceholder</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">notePlaceholder</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC11privacyTextSSvp"></a>
+                    <a name="//apple_ref/swift/Property/privacyText" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC11privacyTextSSvp">privacyText</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">privacyText</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC16privacyTextLinksSaySSGvp"></a>
+                    <a name="//apple_ref/swift/Property/privacyTextLinks" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC16privacyTextLinksSaySSGvp">privacyTextLinks</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">privacyTextLinks</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC12privacyRangeSo8_NSRangeVvp"></a>
+                    <a name="//apple_ref/swift/Property/privacyRange" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC12privacyRangeSo8_NSRangeVvp">privacyRange</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">privacyRange</span><span class="p">:</span> <span class="kt">NSRange</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC11submitTitleSSvp"></a>
+                    <a name="//apple_ref/swift/Property/submitTitle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC11submitTitleSSvp">submitTitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">submitTitle</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC14sendingMessageSSvp"></a>
+                    <a name="//apple_ref/swift/Property/sendingMessage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC14sendingMessageSSvp">sendingMessage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">sendingMessage</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC17alertTitleSuccessSSvp"></a>
+                    <a name="//apple_ref/swift/Property/alertTitleSuccess" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC17alertTitleSuccessSSvp">alertTitleSuccess</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">alertTitleSuccess</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC19alertMessageSuccessSSvp"></a>
+                    <a name="//apple_ref/swift/Property/alertMessageSuccess" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC19alertMessageSuccessSSvp">alertMessageSuccess</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">alertMessageSuccess</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC15alertTitleErrorSSvp"></a>
+                    <a name="//apple_ref/swift/Property/alertTitleError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC15alertTitleErrorSSvp">alertTitleError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">alertTitleError</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC17alertMessageErrorSSvp"></a>
+                    <a name="//apple_ref/swift/Property/alertMessageError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC17alertMessageErrorSSvp">alertMessageError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">alertMessageError</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC18alertActionConfirmSSvp"></a>
+                    <a name="//apple_ref/swift/Property/alertActionConfirm" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC18alertActionConfirmSSvp">alertActionConfirm</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">alertActionConfirm</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC15alertTitlePhotoSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/alertTitlePhoto" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC15alertTitlePhotoSSSgvp">alertTitlePhoto</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">alertTitlePhoto</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC17alertMessagePhotoSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/alertMessagePhoto" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC17alertMessagePhotoSSSgvp">alertMessagePhoto</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">alertMessagePhoto</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC17alertActionRecordSSvp"></a>
+                    <a name="//apple_ref/swift/Property/alertActionRecord" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC17alertActionRecordSSvp">alertActionRecord</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">alertActionRecord</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC17alertActionSelectSSvp"></a>
+                    <a name="//apple_ref/swift/Property/alertActionSelect" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC17alertActionSelectSSvp">alertActionSelect</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">alertActionSelect</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC17alertActionDeleteSSvp"></a>
+                    <a name="//apple_ref/swift/Property/alertActionDelete" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC17alertActionDeleteSSvp">alertActionDelete</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">alertActionDelete</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC17alertActionCancelSSvp"></a>
+                    <a name="//apple_ref/swift/Property/alertActionCancel" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC17alertActionCancelSSvp">alertActionCancel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">alertActionCancel</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC11viewDidLoadyyF"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC11viewDidLoadyyF">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC15infoButtonTouchyyF"></a>
+                    <a name="//apple_ref/swift/Method/infoButtonTouch()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC15infoButtonTouchyyF">infoButtonTouch()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">infoButtonTouch</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC14setAddressFrom10coordinateySo22CLLocationCoordinate2DVSg_tF"></a>
+                    <a name="//apple_ref/swift/Method/setAddressFrom(coordinate:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC14setAddressFrom10coordinateySo22CLLocationCoordinate2DVSg_tF">setAddressFrom(coordinate:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setAddressFrom</span><span class="p">(</span><span class="nv">coordinate</span><span class="p">:</span> <span class="kt">CLLocationCoordinate2D</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC012didUpdateMapD04withySo14MKUserLocationC_tF"></a>
+                    <a name="//apple_ref/swift/Method/didUpdateMapView(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC012didUpdateMapD04withySo14MKUserLocationC_tF">didUpdateMapView(with:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">didUpdateMapView</span><span class="p">(</span><span class="n">with</span> <span class="nv">userLocation</span><span class="p">:</span> <span class="kt">MKUserLocation</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC27textFieldShouldBeginEditingyyF"></a>
+                    <a name="//apple_ref/swift/Method/textFieldShouldBeginEditing()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC27textFieldShouldBeginEditingyyF">textFieldShouldBeginEditing()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textFieldShouldBeginEditing</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC25customLocationButtonTouchyyF"></a>
+                    <a name="//apple_ref/swift/Method/customLocationButtonTouch()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC25customLocationButtonTouchyyF">customLocationButtonTouch()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">customLocationButtonTouch</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC15tapPrivacyLabelyyF"></a>
+                    <a name="//apple_ref/swift/Method/tapPrivacyLabel()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC15tapPrivacyLabelyyF">tapPrivacyLabel()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">tapPrivacyLabel</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A13FormViewModelC17submitButtonTouch7addressySS_tF"></a>
+                    <a name="//apple_ref/swift/Method/submitButtonTouch(address:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A13FormViewModelC17submitButtonTouch7addressySS_tF">submitButtonTouch(address:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">submitButtonTouch</span><span class="p">(</span><span class="nv">address</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="" target="_blank" rel="external noopener">Stephan Breidenbach</a>. All rights reserved. (Last updated: 2022-03-21)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

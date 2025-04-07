@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OSCADefectFormPickerViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/OSCADefectFormPickerViewController" class="dashAnchor"></a>
+    <a title="OSCADefectFormPickerViewController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> 0.0.9 Docs</a> (100% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        OSCADefectFormPickerViewController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectFormFlowCoordinator.html">OSCADefectFormFlowCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectFormPhotoCollectionViewCell.html">OSCADefectFormPhotoCollectionViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectFormPickerViewController.html">OSCADefectFormPickerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectFormPickerViewModel.html">OSCADefectFormPickerViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectFormViewController.html">OSCADefectFormViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectFormViewModel.html">OSCADefectFormViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectInformationViewController.html">OSCADefectInformationViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectInformationViewModel.html">OSCADefectInformationViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectLocationTableViewController.html">OSCADefectLocationTableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectLocationTableViewModel.html">OSCADefectLocationTableViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectLocationViewController.html">OSCADefectLocationViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectLocationViewModel.html">OSCADefectLocationViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCADefectUIDIContainer.html">OSCADefectUIDIContainer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/OSCADefectFormPickerViewModelError.html">OSCADefectFormPickerViewModelError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCADefectFormPickerViewModelState.html">OSCADefectFormPickerViewModelState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCADefectFormViewModelError.html">OSCADefectFormViewModelError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCADefectFormViewModelState.html">OSCADefectFormViewModelState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCADefectLocationTableViewModelState.html">OSCADefectLocationTableViewModelState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/OSCADefectFormFlowCoordinatorDependencies.html">OSCADefectFormFlowCoordinatorDependencies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/OSCADefectUIModuleConfig.html">OSCADefectUIModuleConfig</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/OSCADefectFormPickerViewModelActions.html">OSCADefectFormPickerViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCADefectFormViewModelActions.html">OSCADefectFormViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:12OSCADefectUI0A27InformationViewModelActionsV">OSCADefectInformationViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:12OSCADefectUI0A29LocationTableViewModelActionsV">OSCADefectLocationTableViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:12OSCADefectUI0A24LocationViewModelActionsV">OSCADefectLocationViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCADefectUI.html">OSCADefectUI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCADefectUIConfig.html">OSCADefectUIConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCADefectUIDependencies.html">OSCADefectUIDependencies</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>OSCADefectFormPickerViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">OSCADefectFormPickerViewController</span> <span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">ActivityIndicatable</span><span class="p">,</span> <span class="kt">Alertable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">OSCADefectFormPickerViewController</span><span class="p">:</span> <span class="kt">StoryboardInstantiable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">OSCADefectFormPickerViewController</span><span class="p">:</span> <span class="kt">UIPickerViewDelegate</span><span class="p">,</span> <span class="kt">UIPickerViewDataSource</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14OSCAEssentials19ActivityIndicatableP21activityIndicatorViewAA0beF0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/activityIndicatorView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14OSCAEssentials19ActivityIndicatableP21activityIndicatorViewAA0beF0Cvp">activityIndicatorView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">activityIndicatorView</span><span class="p">:</span> <span class="kt">ActivityIndicatorView</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)viewDidLayoutSubviews"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLayoutSubviews()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)viewDidLayoutSubviews">viewDidLayoutSubviews()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLayoutSubviews</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)viewDidAppear:"></a>
+                    <a name="//apple_ref/swift/Method/viewDidAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)viewDidAppear:">viewDidAppear(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)tapOnDismissViewTouch:"></a>
+                    <a name="//apple_ref/swift/Method/tapOnDismissViewTouch(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)tapOnDismissViewTouch:">tapOnDismissViewTouch(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
+<span class="kd">func</span> <span class="nf">tapOnDismissViewTouch</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UITapGestureRecognizer</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)cancelButtonTouch:"></a>
+                    <a name="//apple_ref/swift/Method/cancelButtonTouch(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)cancelButtonTouch:">cancelButtonTouch(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
+<span class="kd">func</span> <span class="nf">cancelButtonTouch</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UIButton</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)confirmButtonTouch:"></a>
+                    <a name="//apple_ref/swift/Method/confirmButtonTouch(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)confirmButtonTouch:">confirmButtonTouch(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
+<span class="kd">func</span> <span class="nf">confirmButtonTouch</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UIButton</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/instantiate%20view%20controller"></a>
+                <a name="//apple_ref/swift/Section/instantiate view controller" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/instantiate%20view%20controller"></a>
+                  <h3 class="section-name"><span>instantiate view controller</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12OSCADefectUI0A24FormPickerViewControllerC6create4withAcA0acdE5ModelC_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/create(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12OSCADefectUI0A24FormPickerViewControllerC6create4withAcA0acdE5ModelC_tFZ">create(with:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="n">with</span> <span class="nv">viewModel</span><span class="p">:</span> <span class="kt"><a href="../Classes/OSCADefectFormPickerViewModel.html">OSCADefectFormPickerViewModel</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">OSCADefectFormPickerViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)numberOfComponentsInPickerView:"></a>
+                    <a name="//apple_ref/swift/Method/numberOfComponents(in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)numberOfComponentsInPickerView:">numberOfComponents(in:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">numberOfComponents</span><span class="p">(</span><span class="k">in</span> <span class="nv">_</span><span class="p">:</span> <span class="kt">UIPickerView</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)pickerView:numberOfRowsInComponent:"></a>
+                    <a name="//apple_ref/swift/Method/pickerView(_:numberOfRowsInComponent:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)pickerView:numberOfRowsInComponent:">pickerView(_:<wbr>numberOfRowsInComponent:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">pickerView</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="kt">UIPickerView</span><span class="p">,</span> <span class="n">numberOfRowsInComponent</span> <span class="nv">_</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)pickerView:viewForRow:forComponent:reusingView:"></a>
+                    <a name="//apple_ref/swift/Method/pickerView(_:viewForRow:forComponent:reusing:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)pickerView:viewForRow:forComponent:reusingView:">pickerView(_:<wbr>viewForRow:<wbr>forComponent:<wbr>reusing:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">pickerView</span><span class="p">(</span><span class="n">_</span> <span class="nv">pickerView</span><span class="p">:</span> <span class="kt">UIPickerView</span><span class="p">,</span> <span class="n">viewForRow</span> <span class="nv">row</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">forComponent</span> <span class="nv">component</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">reusing</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">UIView</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)pickerView:didSelectRow:inComponent:"></a>
+                    <a name="//apple_ref/swift/Method/pickerView(_:didSelectRow:inComponent:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCADefectUI@objc(cs)OSCADefectFormPickerViewController(im)pickerView:didSelectRow:inComponent:">pickerView(_:<wbr>didSelectRow:<wbr>inComponent:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">pickerView</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="kt">UIPickerView</span><span class="p">,</span> <span class="n">didSelectRow</span> <span class="nv">row</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">inComponent</span> <span class="nv">_</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="" target="_blank" rel="external noopener">Stephan Breidenbach</a>. All rights reserved. (Last updated: 2022-03-21)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+{
+  "pins" : [
+    {
+      "identity" : "devicekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/devicekit/DeviceKit.git",
+      "state" : {
+        "revision" : "691fe8112cca20ebf0020a1709d4e0205400311c",
+        "version" : "5.0.0"
+      }
+    },
+    {
+      "identity" : "oscadefect-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://git-dev.solingen.de/smartcityapp/modules/oscadefect-ios.git",
+      "state" : {
+        "revision" : "7b0efd9d4e1f61e007c481b77ea62d71e5f0a822",
+        "version" : "1.0.4"
+      }
+    },
+    {
+      "identity" : "oscaessentials-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://git-dev.solingen.de/smartcityapp/modules/oscaessentials-ios.git",
+      "state" : {
+        "revision" : "0fcc0b266e2beb6b4f85c5c054c84dc196b955b0",
+        "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "oscanetworkservice-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://git-dev.solingen.de/smartcityapp/modules/oscanetworkservice-ios.git",
+      "state" : {
+        "revision" : "45a19f420a2234d8e7fe8d0d1752793d5c27dd8a",
+        "version" : "1.0.4"
+      }
+    },
+    {
+      "identity" : "oscatestcaseextension-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://git-dev.solingen.de/smartcityapp/modules/oscatestcaseextension-ios.git",
+      "state" : {
+        "revision" : "f2014fc336257435f186342557b26227d438cc1b",
+        "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "skyfloatinglabeltextfield",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Skyscanner/SkyFloatingLabelTextField.git",
+      "state" : {
+        "revision" : "82c0bbbc4e1368901b171292c220690273460f4b",
+        "version" : "3.8.0"
+      }
+    },
+    {
+      "identity" : "swiftdate",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/malcommac/SwiftDate.git",
+      "state" : {
+        "revision" : "5d943224c3bb173e6ecf27295611615eba90c80e",
+        "version" : "7.0.0"
+      }
+    },
+    {
+      "identity" : "swiftspinner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/icanzilb/SwiftSpinner.git",
+      "state" : {
+        "revision" : "f6cfeb6f1780571bdef8bdaf924ccdb573d23e33",
+        "version" : "2.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}

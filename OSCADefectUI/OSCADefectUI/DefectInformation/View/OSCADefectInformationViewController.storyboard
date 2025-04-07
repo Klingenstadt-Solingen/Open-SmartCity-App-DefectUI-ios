@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Defect Information-->
+        <scene sceneID="8gn-v4-E8n">
+            <objects>
+                <viewController storyboardIdentifier="OSCADefectInformationViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WFT-x6-fUs" userLabel="Defect Information" customClass="OSCADefectInformationViewController" customModule="OSCADefectUI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WNc-Hw-2hH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cW6-n8-zOZ">
+                                <rect key="frame" x="16" y="60" width="382" height="183.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flaw" translatesAutoresizingMaskIntoConstraints="NO" id="l7h-jJ-WZ6">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="183.5"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="l7h-jJ-WZ6" firstAttribute="top" secondItem="cW6-n8-zOZ" secondAttribute="top" id="5hB-hi-FMz"/>
+                                    <constraint firstAttribute="width" secondItem="cW6-n8-zOZ" secondAttribute="height" multiplier="25:12" id="8dl-oi-pjr"/>
+                                    <constraint firstAttribute="bottom" secondItem="l7h-jJ-WZ6" secondAttribute="bottom" id="LDC-wm-ONO"/>
+                                    <constraint firstAttribute="trailing" secondItem="l7h-jJ-WZ6" secondAttribute="trailing" id="Vam-0d-htl"/>
+                                    <constraint firstItem="l7h-jJ-WZ6" firstAttribute="leading" secondItem="cW6-n8-zOZ" secondAttribute="leading" id="pFg-YN-KLF"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vuq-uT-aFX">
+                                <rect key="frame" x="16" y="259.5" width="382" height="122"/>
+                                <string key="text">Die Straßenlaterne an der Ecke ist schon seit Monaten kaputt oder die wilde Müllansammlung im Wäldchen nervt?
+Solche und ähnliche Schäden oder Mängel kannst du uns schnell und einfach mitteilen.
+Wir kümmern uns darum.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9QP-Dc-zpV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9QP-Dc-zpV" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Vuq-uT-aFX" secondAttribute="trailing" constant="16" id="7Dn-o4-CM8"/>
+                            <constraint firstItem="cW6-n8-zOZ" firstAttribute="top" secondItem="9QP-Dc-zpV" secondAttribute="top" constant="16" id="KWR-LB-Sui"/>
+                            <constraint firstItem="cW6-n8-zOZ" firstAttribute="leading" secondItem="9QP-Dc-zpV" secondAttribute="leading" constant="16" id="QgK-12-tFx"/>
+                            <constraint firstItem="9QP-Dc-zpV" firstAttribute="trailing" secondItem="cW6-n8-zOZ" secondAttribute="trailing" constant="16" id="gg7-dQ-R5x"/>
+                            <constraint firstItem="cW6-n8-zOZ" firstAttribute="top" secondItem="9QP-Dc-zpV" secondAttribute="top" constant="16" id="hPM-qN-dsm"/>
+                            <constraint firstItem="Vuq-uT-aFX" firstAttribute="leading" secondItem="9QP-Dc-zpV" secondAttribute="leading" constant="16" id="pas-WW-uwt"/>
+                            <constraint firstItem="Vuq-uT-aFX" firstAttribute="top" secondItem="cW6-n8-zOZ" secondAttribute="bottom" constant="16" id="qEW-3W-KTo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="infoImage" destination="l7h-jJ-WZ6" id="CRh-83-RfV"/>
+                        <outlet property="infoImageContainer" destination="cW6-n8-zOZ" id="f5q-nH-Ic3"/>
+                        <outlet property="infoLabel" destination="Vuq-uT-aFX" id="SBI-9l-fcD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qqv-Xa-7uR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-17.39130434782609" y="89.732142857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Flaw" width="750" height="360"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

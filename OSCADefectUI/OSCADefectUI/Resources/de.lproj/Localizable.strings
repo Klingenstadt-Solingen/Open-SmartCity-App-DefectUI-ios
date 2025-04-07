@@ -1,0 +1,98 @@
+/*
+  Localizable.strings
+  OSCADefectUI
+
+  Created by Ömer Kurutay on 22.02.22.
+  
+*/
+
+// MARK: Shared
+
+// The alert title for an error
+"defect_alert_title_error" = "Fehler";
+
+// MARK: Defect Form
+
+// The screen title
+"defect_form_screen_title" = "Mangel melden";
+// The title for photos
+"defect_photos_title" = "Fotos";
+// The alert message for an entry error
+"defect_alert_message_error" = "Bitte prüfe deine Eingaben.";
+// The alert action title to take a picture
+"defect_alert_title_record" = "Foto aufnehmen";
+// The alert action title to select a picture
+"defect_alert_title_select" = "Foto auswählen";
+// The alert action title to remove a picture
+"defect_alert_title_remove" = "Foto entfernen";
+// The alert action title to cancel
+"defect_alert_title_cancel" = "Abbrechen";
+// The alert action title to confirm
+"defect_alert_title_confirm" = "OK";
+// The alert action title to show success
+"defect_alert_title_success" = "Vielen Dank";
+// The alert action message to show success
+"defect_alert_message_success" = "Deine Meldung ist bei uns eingegangen und wir werden uns schnellstmöglich darum kümmern.";
+// The message shown while image is uploading
+"defect_upload_message_image" = "Uploading images";
+// The title for the location
+"defect_location_title" = "Standort";
+// The title for the custom location button
+"defect_custom_location_title" = "Standort auswählen";
+// The title for the defect form fields
+"defect_defect_title" = "Mangel";
+// The title for the defect types
+"defect_defect_type_title" = "Art des Mangels";
+// The consent to the privacy policy
+"defect_privacy_policy_consent" = "Ich stimme den Datenschutzbestimmungen zu.";
+// The link in the privacy policy consent
+"defect_privacy_policy_consent_link" = "Datenschutzbestimmungen";
+// The note placeholder
+"defect_note_placeholder" = "Kommentar";
+// The title for the personal data fields
+"defect_personal_data_title" = "Persönliche Daten";
+// The placeholder for the full name field
+"defect_placeholder_full_name" = "Dein vollständiger Name";
+// The placeholder for the address field
+"defect_placeholder_address" = "Deine Adresse";
+// The placeholder for the postal code field
+"defect_placeholder_postal_code" = "Deine Postleitzahl";
+// The placeholder for the city field
+"defect_placeholder_city" = "Deine Stadt";
+// The placeholder for the phone number field
+"defect_placeholder_phone" = "Deine Telefonnummer";
+// The placeholder for the e-mail address field
+"defect_placeholder_email" = "Deine E-Mail-Adresse";
+// The error message for invalid inputs in text fields
+"defect_input_message_error" = "Ungültige Eingabe";
+// The title for the submit button
+"defect_submit_title" = "Mangel melden";
+
+// MARK: Defect Picker
+
+// The title for the picker view cancel button
+"defect_picker_title_cancel" = "Abbrechen";
+// The title for the picker view confirm button
+"defect_picker_title_confirm" = "Auswählen";
+
+// MARK: Defect Location
+
+// The screen title
+"defect_location_screen_title" = "Mein Standort";
+// The search bar placeholder
+"defect_search_bar_placeholder" = "Suchen";
+
+// MARK: Defect Location Table
+
+
+// MARK: Defect Information
+
+// The screen title
+"defect_information_screen_title" = "Mängel";
+// The defect information
+"defect_information" = "Die Straßenlaterne an der Ecke ist schon seit Monaten kaputt oder die wilde Müllansammlung im Wäldchen nervt?\nSolche und ähnliche Schäden oder Mängel kannst du uns schnell und einfach mitteilen.\nWir kümmern uns darum.";
+
+// MARK: Defect Privacy Policy
+
+// The screen title for privacy policy
+"defect_privacy_policy_screen_title" = "Datenschutz";

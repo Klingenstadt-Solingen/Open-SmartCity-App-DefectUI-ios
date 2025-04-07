@@ -1,0 +1,98 @@
+/* 
+  Localizable.strings
+  OSCADefectUI
+
+  Created by Ömer Kurutay on 22.02.22.
+  
+*/
+
+// MARK: Shared
+
+// The alert title for an error
+"defect_alert_title_error" = "Error";
+
+// MARK: Defect Form
+
+// The screen title
+"defect_form_screen_title" = "Report defect";
+// The title for photos
+"defect_photos_title" = "Photos";
+// The alert message for an entry error
+"defect_alert_message_error" = "Please check your entries.";
+// The alert action title to take a picture
+"defect_alert_title_record" = "Take picture";
+// The alert action title to select a picture
+"defect_alert_title_select" = "Select picture";
+// The alert action title to remove a picture
+"defect_alert_title_remove" = "Remove picture";
+// The alert action title to cancel
+"defect_alert_title_cancel" = "Cancel";
+// The alert action title to confirm
+"defect_alert_title_confirm" = "OK";
+// The alert action title to show success
+"defect_alert_title_success" = "Thank you";
+// The alert action message to show success
+"defect_alert_message_success" = "We have received your message and will take care of it as soon as possible.";
+// The message shown while image is uploading
+"defect_upload_message_image" = "Bilder werden hochgeladen";
+// The title for the location
+"defect_location_title" = "Location";
+// The title for the custom location button
+"defect_custom_location_title" = "Select location";
+// The title for the defect form fields
+"defect_defect_title" = "Defect";
+// The title for the defect types
+"defect_defect_type_title" = "Defect type";
+// The consent to the privacy policy
+"defect_privacy_policy_consent" = "I agree to the privacy policy.";
+// The link in the privacy policy consent
+"defect_privacy_policy_consent_link" = "privacy policy";
+// The note placeholder
+"defect_note_placeholder" = "Note";
+// The title for the personal data fields
+"defect_personal_data_title" = "Personal data";
+// The placeholder for the full name field
+"defect_placeholder_full_name" = "Your full name";
+// The placeholder for the address field
+"defect_placeholder_address" = "Your address";
+// The placeholder for the postal code field
+"defect_placeholder_postal_code" = "Your postal code";
+// The placeholder for the city field
+"defect_placeholder_city" = "Your city";
+// The placeholder for the phone number field
+"defect_placeholder_phone" = "Your phone number";
+// The placeholder for the e-mail address field
+"defect_placeholder_email" = "Your e-mail address";
+// The error message for invalid inputs in text fields
+"defect_input_message_error" = "Invalid input";
+// The title for the submit button
+"defect_submit_title" = "Report defect";
+
+// MARK: Defect Picker
+
+// The title for the picker view cancel button
+"defect_picker_title_cancel" = "Cancel";
+// The title for the picker view confirm button
+"defect_picker_title_confirm" = "Select";
+
+// MARK: Defect Location
+
+// The screen title
+"defect_location_screen_title" = "My location";
+// The search bar placeholder
+"defect_search_bar_placeholder" = "Search";
+
+// MARK: Defect Location Table
+
+
+// MARK: Defect Information
+
+// The screen title
+"defect_information_screen_title" = "Defects";
+// The defect information
+"defect_information" = "The street lamp on the corner has been broken for months or the wild accumulation of garbage in the grove is annoying?\nYou can report this and similar damage or defects to us quickly and easily.\nWe take care of this.";
+
+// MARK: Defect Privacy Policy
+
+// The screen title for privacy policy
+"defect_privacy_policy_screen_title" = "Privacy Policy";
